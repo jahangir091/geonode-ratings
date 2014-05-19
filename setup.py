@@ -104,11 +104,11 @@ def find_package_data(
 
 
 PACKAGE = "agon_ratings"
-NAME = "agon-ratings"
-DESCRIPTION = "a user ratings app"
+NAME = "geonode-agon-ratings"
+DESCRIPTION = "Fork of agon-ratings: a user ratings app"
 AUTHOR = "Eldarion"
 AUTHOR_EMAIL = "developers@eldarion.com"
-URL = "http://github.com/eldarion/agon-ratings"
+URL = "http://github.com/GeoNode/agon-ratings"
 VERSION = __import__(PACKAGE).__version__
 
 
