@@ -1,7 +1,10 @@
 from django.conf import settings
 from django.http import HttpResponse, HttpResponseForbidden
 from django.shortcuts import get_object_or_404
-from django.utils import simplejson as json
+try:
+    import json
+except ImportError:
+    from django.utils import simplejson as json
 from django.views.decorators.http import require_POST
 
 from django.contrib.auth.decorators import login_required
